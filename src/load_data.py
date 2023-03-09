@@ -16,4 +16,4 @@ if __name__ == "__main__":
     args.add_argument('--config',default='params.yaml')
     parsed_args = args.parse_args()
 
-    data = load_and_save(parsed_args.config)
+    load_and_save(parsed_args.config)
